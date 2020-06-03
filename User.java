@@ -19,7 +19,6 @@ public class User {
 
     private Integer status;
 
-    private Double wallet;
 
     public String getUserId() {
         return userId;
@@ -91,14 +90,6 @@ public class User {
 
     public void setStatus(Integer status) {
         this.status = status;
-    }
-
-    public Double getWallet() {
-        return wallet;
-    }
-
-    public void setWallet(Double wallet) {
-        this.wallet = wallet;
     }
 
 }
