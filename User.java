@@ -19,7 +19,6 @@ public class User {
 
     private Integer status;
 
-
     public String getUserId() {
         return userId;
     }
